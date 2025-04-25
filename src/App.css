@@ -35,9 +35,9 @@
   margin-top: 30px;
 }
 .foto-perfil {
-  width: 220px; /* Tamanho da imagem */
+  width: 220px; 
   height: 220px;
-  border-radius: 50%; /* Deixa a imagem redonda */
+  border-radius: 50%;
   border: 2px solid #333;
   object-fit: cover;
   object-position: top;
