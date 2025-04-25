@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+
+:root {
+  --cor-principal: #3ed6b7;
+  --cor-hover: #b7e7dc;
+  --cor-titulo: #045d56;
+  --cor-fundo: #f4fdfc;
+  --cor-detalhe: #e2e8f0;
+}
+
+* {
+  font-family: "Share Tech";
+  margin: 0;
+  padding: 0;
+}
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.header-link-tree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px;
+  margin-top: 30px;
+}
+.foto-perfil {
+  width: 220px; /* Tamanho da imagem */
+  height: 220px;
+  border-radius: 50%; /* Deixa a imagem redonda */
+  border: 2px solid #333;
+  object-fit: cover;
+  object-position: top;
+}
+.my-name {
+  margin: 10px 0px 10px 10px;
+  font-weight: bold;
+  font-family: "Share Tech";
+  justify-content: center;
+  text-align: center;
+}
+.sobrenome {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container-main {
+  width: 400px;
+  height: 600px;
+  background-color: var(--cor-principal);
+  margin-top: 6rem;
+  border-radius: 20px;
+}
+
+.all-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+a {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  text-decoration: none !important;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+.appendChild-links {
+  background-color: var(--cor-hover);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 90%;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.about-me {
+  margin-bottom: 8px;
+}
